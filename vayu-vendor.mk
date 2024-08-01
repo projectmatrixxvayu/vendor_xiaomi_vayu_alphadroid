@@ -1188,6 +1188,11 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/vayu/proprietary/vendor/lib64/libloc_core.so:$(TARGET_COPY_OUT_VENDOR)/vendor/lib64/libloc_core.so \
     vendor/xiaomi/vayu/proprietary/vendor/lib64/liblocation_api.so:$(TARGET_COPY_OUT_VENDOR)/vendor/lib64/liblocation_api.so \
     vendor/xiaomi/vayu/proprietary/vendor/lib64/libsoc_helper.so:$(TARGET_COPY_OUT_VENDOR)/vendor/lib64/libsoc_helper.so
+    vendor/xiaomi/vayu/proprietary/vendor/etc/camera/st_license.lic:$(TARGET_COPY_OUT_VENDOR)/etc/camera/st_license.lic \
+    vendor/xiaomi/vayu/proprietary/vendor/etc/screen_light.xml:$(TARGET_COPY_OUT_VENDOR)/etc/screen_light.xml \
+    vendor/xiaomi/vayu/proprietary/vendor/lib64/libmiai_portraitsupernight.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmiai_portraitsupernight.so \
+    vendor/xiaomi/vayu/proprietary/vendor/lib64/libsns_registry_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsns_registry_skel.so \
+
 
 PRODUCT_PACKAGES += \
     libfastcvopt \
